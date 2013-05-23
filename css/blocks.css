@@ -1,0 +1,64 @@
+* { padding: 0; margin: 0; }
+li { list-style: none; }
+
+/* i-clearfix */
+
+.i-clearfix:after
+{
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+}
+
+/* b-slider */
+
+.b-slider__scroll
+{
+    height: 11px;
+    width: 100%;
+    background-image: url('../img/scroll-bg.gif');
+    position: relative;
+    margin-top: 19px;
+}
+
+.b-slider__content-container
+{
+    overflow: hidden;
+    border: 1px solid #000;
+}
+
+.b-slider__content
+{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.b-slider__scroll-marker
+{
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    top: -9px;
+    background-image: url('../img/scroll-marker.png');
+    cursor: pointer;
+}
+
+/* b-promo */
+
+.b-promo
+{
+    width: 2050px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+/* b-promo */
+.b-promo__item
+{
+    float: left;
+    margin-right: 10px;
+}
+
+
